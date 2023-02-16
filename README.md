@@ -150,4 +150,4 @@ I would like to thank My learner partners and Microverse for the support
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.
