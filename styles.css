@@ -16,7 +16,7 @@ header {
   width: 100%;
 }
 
-ul {
+.header-link {
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -38,10 +38,14 @@ ul li a {
   line-height: 24px;
   font-style: normal;
   font-family: Arial, sans-serif, 'Crete Round';
+  cursor: pointer;
 }
 
 .head-line {
-  background-image: url("./Img/Illustration-header.svg");
+  background-image: url("./Img/mobbg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: 100%;
   padding: 20px 20px;
   display: flex;
   flex-direction: column;
@@ -91,6 +95,356 @@ ul li a {
   font-family: Arial, sans-serif, 'Roboto';
 }
 
-.illustration {
-  display: none;
+.works {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  row-gap: 10px;
+  justify-items: center;
+  margin: 0;
+}
+
+.works h2 {
+  color: #1c1a19;
+  font-family: Arial, sans-serif, 'Crete Round';
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 100px 24px 10px;
+}
+
+.works img {
+  padding: 25px;
+}
+
+.stories-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stories-intro img {
+  width: 100%;
+}
+
+.stories-intro h2 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #091e42;
+  font-family: 'Crete Round', arial, sans-serif;
+  align-self: flex-start;
+  padding: 0 20px;
+}
+
+.stories-intro p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #091e42;
+  font-family: arial, sans-serif, 'Inter';
+  line-height: 24px;
+  padding: 0 20px;
+}
+
+.stories-intro .projects {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.pro-btn {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 5px 0;
+}
+
+.pro-btn .css-btn {
+  background-color: #fff;
+  border: 1px solid #8993a4;
+  width: 49px;
+  height: 40px;
+  font-weight: 700;
+  font-family: arial, sans-serif, 'Inter';
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.pro-btn .html-btn {
+  background-color: #fff;
+  border: 1px solid #8993a4;
+  width: 56px;
+  height: 40px;
+  font-weight: 500;
+  font-family: arial, sans-serif, 'Inter';
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.pro-btn .bs-btn {
+  background-color: #fff;
+  border: 1px solid #8993a4;
+  width: 95px;
+  height: 40px;
+  font-weight: 500;
+  font-family: arial, sans-serif, 'Inter';
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.pro-btn .ruby-btn {
+  background-color: #fff;
+  border: 1px solid #8993a4;
+  width: 61px;
+  height: 40px;
+  font-weight: 500;
+  font-family: arial, sans-serif, 'Inter';
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.submit-pro-btn #mul-pro {
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  width: 124px;
+  height: 48px;
+  background-color: #ff6b00;
+  gap: 10px;
+  border: none;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  background-image: url("./Img/bg-img.svg");
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card-1 h2,
+.card-2 h2,
+.card-3 h2,
+.card-4 h2,
+.card-5 h2,
+.card-6 h2 {
+  color: #fff;
+  font-family: 'Crete Round', arial, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p,
+.card-4 p,
+.card-5 p,
+.card-6 p {
+  color: #fff;
+  font-family: arial, sans-serif, 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  padding: 0 24px;
+}
+
+.card-1-ul,
+.card-2-ul,
+.card-3-ul,
+.card-4-ul,
+.card-5-ul,
+.card-6-ul {
+  display: flex;
+  gap: 12px;
+  padding: 5px 24px;
+}
+
+.card-1 .html-btn,
+.card-2 .html-btn,
+.card-3 .html-btn,
+.card-4 .html-btn,
+.card-5 .html-btn,
+.card-6 .html-btn {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.24);
+  border: 1px solid #8993a4;
+  width: 56px;
+  height: 40px;
+  font-weight: 500;
+  font-family: arial, sans-serif, 'Inter';
+  font-size: 15px;
+  line-height: 20px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.card-1 .bs-btn,
+.card-2 .bs-btn,
+.card-3 .bs-btn,
+.card-4 .bs-btn,
+.card-5 .bs-btn,
+.card-6 .bs-btn {
+  background: rgba(255, 255, 255, 0.24);
+  border: 1px solid #8993a4;
+  width: 95px;
+  height: 40px;
+  font-weight: 500;
+  font-family: arial, sans-serif, 'Inter';
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.card-1 .ruby-btn,
+.card-2 .ruby-btn,
+.card-3 .ruby-btn,
+.card-4 .ruby-btn,
+.card-5 .ruby-btn,
+.card-6 .ruby-btn {
+  background: rgba(255, 255, 255, 0.24);
+  border: 1px solid #8993a4;
+  width: 61px;
+  height: 40px;
+  font-weight: 500;
+  font-family: arial, sans-serif, 'Inter';
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.card-1 .see-pro,
+.card-2 .see-pro,
+.card-3 .see-pro,
+.card-4 .see-pro,
+.card-5 .see-pro,
+.card-6 .see-pro {
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  width: 100%;
+  height: 48px;
+  background-color: #ff6b00;
+  border: none;
+  cursor: pointer;
+}
+
+.about-me {
+  padding: 0 0 100px 0;
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basic-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 100px;
+  background-image: url("./Img/Group.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: 100%;
+  background-position-y: 90%;
+}
+
+.basic-info h2 {
+  font-size: 72px;
+  font-weight: 400;
+  font-family: arial, sans-serif, 'Crete Round';
+  line-height: 88px;
+  color: #ff6b00;
+  padding: 0 24px;
+}
+
+.basic-info p {
+  font-size: 16px;
+  color: #f4f5f7;
+  font-weight: 400;
+  font-family: arial, sans-serif, 'Inter';
+  line-height: 24px;
+  padding: 0 24px;
+}
+
+.basic-info .rus-btn {
+  width: 161px;
+  height: 48px;
+  background-color: #ff6b00;
+  border: none;
+  cursor: pointer;
+}
+
+.basic-info ul {
+  padding: 24px 0 100px 24px;
+}
+
+.btm-bor {
+  padding: 24px;
+}
+
+.lan-tag,
+.fw-tag,
+.skill-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rect-55 {
+  width: 12px;
+}
+
+.rect-56 {
+  width: 8px;
+}
+
+.rect-57 {
+  width: 10px;
+}
+
+.language h2,
+.freamworks h2,
+.skills h2 {
+  color: #fff;
+  font-family: 'InaiMathi', arial, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.lan-tag {
+  padding-top: 50px;
+}
+
+.language ul li,
+.freamworks ul li,
+.skills ul li {
+  padding: 10px 0;
+  font-family: arial, sans-serif, 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
 }
