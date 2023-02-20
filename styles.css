@@ -272,7 +272,7 @@ ul li a {
 .card-4-ul,
 .card-5-ul,
 .card-6-ul {
-  display: flex;
+  display: block;
   gap: 12px;
   padding: 5px 24px;
 }
@@ -294,6 +294,7 @@ ul li a {
   line-height: 20px;
   cursor: pointer;
   margin: 10px 0;
+  float: right;
 }
 
 .card-1 .bs-btn,
@@ -313,6 +314,7 @@ ul li a {
   color: #fff;
   cursor: pointer;
   margin: 10px 0;
+  float: left;
 }
 
 .card-1 .ruby-btn,
@@ -332,6 +334,7 @@ ul li a {
   color: #fff;
   cursor: pointer;
   margin: 10px 0;
+  float: left;
 }
 
 .card-1 .see-pro,
