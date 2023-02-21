@@ -448,3 +448,13 @@ ul li a {
   font-size: 16px;
   text-align: center;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  height: 2.5vh;
+  width: 100%;
+  border-bottom: 2px solid #0d151e;
+  margin-bottom: 10px;
+}
