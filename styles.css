@@ -277,12 +277,7 @@ ul li a {
   padding: 5px 24px;
 }
 
-.card-1 .html-btn,
-.card-2 .html-btn,
-.card-3 .html-btn,
-.card-4 .html-btn,
-.card-5 .html-btn,
-.card-6 .html-btn {
+[class*="html-btn"] {
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
   border: 1px solid #8993a4;
@@ -296,12 +291,7 @@ ul li a {
   margin: 10px 0;
 }
 
-.card-1 .bs-btn,
-.card-2 .bs-btn,
-.card-3 .bs-btn,
-.card-4 .bs-btn,
-.card-5 .bs-btn,
-.card-6 .bs-btn {
+[class*="bs-btn"] {
   background: rgba(255, 255, 255, 0.24);
   border: 1px solid #8993a4;
   width: 95px;
@@ -315,12 +305,7 @@ ul li a {
   margin: 10px 0;
 }
 
-.card-1 .ruby-btn,
-.card-2 .ruby-btn,
-.card-3 .ruby-btn,
-.card-4 .ruby-btn,
-.card-5 .ruby-btn,
-.card-6 .ruby-btn {
+[class*="ruby-btn"] {
   background: rgba(255, 255, 255, 0.24);
   border: 1px solid #8993a4;
   width: 61px;
@@ -334,12 +319,7 @@ ul li a {
   margin: 10px 0;
 }
 
-.card-1 .see-pro,
-.card-2 .see-pro,
-.card-3 .see-pro,
-.card-4 .see-pro,
-.card-5 .see-pro,
-.card-6 .see-pro {
+[class*="see-pro"] {
   color: #fff;
   font-weight: 700;
   font-size: 17px;
@@ -451,7 +431,7 @@ ul li a {
 
 .form-intro h2 {
   font-size: 32px;
-  font-family: 'Inter';
+  font-family: 'Inter', arial, sans-serif;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
@@ -459,27 +439,78 @@ ul li a {
   padding: 100px 24px 50px 24px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 24px;
+  padding-bottom: 100px;
+  align-items: center;
+}
+
+.input-name,
+.input-email {
+  width: 295px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Inter', arial, sans-serif;
+  line-height: 24px;
+  color: #979493;
+  border: none;
+}
+
+.input-textarea {
+  width: 327px;
+  height: 114px;
+  background-color: #fbf8f7;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Inter', arial, sans-serif;
+  line-height: 24px;
+  columns: #3c3a39;
+  border: none;
+  padding-left: 15px;
+}
+
+.get-in-touch {
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  width: 131px;
+  height: 48px;
+  background-color: #ff6b00;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+
+.get-in-touch:hover {
+  background-color: #1c1a19;
+}
+
 footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  height: 2.5vh;
   width: 100%;
-  margin: 20px 0;
+  border-top: 1px solid #dfe1e6;
+  height: 100%;
+  margin-bottom: 10px;
 }
-
-
 
 .footer-links {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+  padding-top: 60px;
 }
 
 .bottom-line {
   width: 134px;
   height: 5px;
   align-self: center;
+  margin-top: 10px;
 }
