@@ -449,6 +449,16 @@ ul li a {
   text-align: center;
 }
 
+.form-intro h2 {
+  font-size: 32px;
+  font-family: 'Inter';
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  font-weight: 700;
+  padding: 100px 24px 50px 24px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
