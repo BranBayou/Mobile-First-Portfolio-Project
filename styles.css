@@ -451,10 +451,25 @@ ul li a {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 10px;
   height: 2.5vh;
   width: 100%;
-  border-bottom: 2px solid #0d151e;
-  margin-bottom: 10px;
+  margin: 20px 0;
+}
+
+
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.bottom-line {
+  width: 134px;
+  height: 5px;
+  align-self: center;
 }
