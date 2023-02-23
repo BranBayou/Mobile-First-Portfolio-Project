@@ -42,7 +42,7 @@
     font-size: 18px;
     line-height: 24px;
     font-style: normal;
-    font-family: Arial, sans-serif, 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     cursor: pointer;
   }
 
@@ -65,7 +65,7 @@
     font-size: 56px;
     line-height: 64px;
     letter-spacing: 0.37px;
-    font-family: Arial, sans-serif, 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
   }
 
@@ -110,7 +110,7 @@
 
   .works h2 {
     color: #1c1a19;
-    font-family: Arial, sans-serif, 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-size: 40px;
     font-weight: 400;
     font-style: normal;
@@ -197,7 +197,7 @@
     width: 95px;
     height: 40px;
     font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     line-height: 20px;
     color: #091e42;
@@ -211,7 +211,7 @@
     width: 61px;
     height: 40px;
     font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     line-height: 20px;
     color: #091e42;
@@ -264,7 +264,7 @@
   .card-5 p,
   .card-6 p {
     color: #fff;
-    font-family: arial, sans-serif, 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     width: 100%;
@@ -293,7 +293,7 @@
     width: 56px;
     height: 40px;
     font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     line-height: 20px;
     cursor: pointer;
@@ -306,7 +306,7 @@
     width: 95px;
     height: 40px;
     font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     line-height: 20px;
     color: #fff;
@@ -320,7 +320,7 @@
     width: 61px;
     height: 40px;
     font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     line-height: 20px;
     color: #fff;
@@ -362,7 +362,7 @@
   .basic-info h2 {
     font-size: 72px;
     font-weight: 400;
-    font-family: arial, sans-serif, 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     line-height: 88px;
     color: #ff6b00;
     padding: 0 24px;
@@ -372,7 +372,7 @@
     font-size: 16px;
     color: #f4f5f7;
     font-weight: 400;
-    font-family: arial, sans-serif, 'Inter';
+    font-family: 'Inter', sans-serif;
     line-height: 24px;
     padding: 0 24px;
   }
@@ -383,6 +383,9 @@
     background-color: #ff6b00;
     border: none;
     cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
   }
 
   .basic-info ul {
@@ -611,7 +614,7 @@
   .greet {
     width: 566px;
     height: 160px;
-    font-family: sans-serif, 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-weight: 400;
     font-size: 92px;
     color: #f55800;
@@ -622,7 +625,7 @@
     width: 566px;
     height: 24px;
     color: #fff;
-    font-family: sans-serif, 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
@@ -632,7 +635,7 @@
     width: 566px;
     height: 123px;
     color: #fff;
-    font-family: sans-serif, 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -668,7 +671,7 @@
   .resent-work-intro h2 {
     font-size: 32px;
     font-weight: 400;
-    font-family: sans-serif, 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     line-height: 52px;
     color: #091e42;
   }
@@ -696,7 +699,7 @@
   }
 
   .story-detail h2 {
-    font-family: sans-serif, 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
@@ -975,7 +978,7 @@
   .basic-info h2 {
     font-size: 72px;
     font-weight: 400;
-    font-family: sans-serif, 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     line-height: 82px;
     width: 566px;
     height: 78px;
@@ -998,6 +1001,13 @@
     background-color: #ff6b00;
     border: none;
     cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+  }
+
+  .rus-btn:hover {
+    background-color: #1c1a19;
   }
 
   .basic-info .btm-bor {
