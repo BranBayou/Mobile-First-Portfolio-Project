@@ -560,12 +560,21 @@
     cursor: pointer;
   }
 
+  li {
+    list-style-type: none;
+  }
+
   .name-class li {
     transition: 2s;
   }
 
-  .name-class li:hover {
-    transform: rotateY(360deg);
+  .language ul li,
+  .freamworks ul li,
+  .skills ul li {
+    padding: 10px 0;
+    font-family: arial, sans-serif, 'Inter';
+    font-weight: 400;
+    font-size: 16px;
   }
 
   .port-link:hover,
@@ -575,8 +584,8 @@
     padding: 10px;
   }
 
-  li {
-    list-style-type: none;
+  .name-class li:hover {
+    transform: rotateY(360deg);
   }
 
   ul li a {
@@ -712,6 +721,7 @@
     width: 684px;
     height: 448px;
   }
+
   .stories-intro img:hover {
     margin: 10px;
     transform: scale(1.03);
@@ -1080,15 +1090,6 @@
     font-weight: 700;
     text-align: center;
     padding: 10px 10px;
-  }
-
-  .language ul li,
-  .freamworks ul li,
-  .skills ul li {
-    padding: 10px 0;
-    font-family: arial, sans-serif, 'Inter';
-    font-weight: 400;
-    font-size: 16px;
   }
 
   .contact-form {
