@@ -560,14 +560,32 @@
     cursor: pointer;
   }
 
+  li {
+    list-style-type: none;
+  }
+
+  .name-class li {
+    transition: 2s;
+  }
+
+  .language ul li,
+  .freamworks ul li,
+  .skills ul li {
+    padding: 10px 0;
+    font-family: arial, sans-serif, 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+  }
+
   .port-link:hover,
   .about-link:hover,
   .contact-link:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #f55800;
+    padding: 10px;
   }
 
-  li {
-    list-style-type: none;
+  .name-class li:hover {
+    transform: rotateY(360deg);
   }
 
   ul li a {
@@ -649,6 +667,16 @@
     padding-bottom: 10px;
   }
 
+  .git-h:hover,
+  .link-i:hover,
+  .pi:hover,
+  .twwi:hover,
+  .mm-m {
+    padding: 10px 0;
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
   .works {
     width: 1100px;
     display: grid;
@@ -686,11 +714,18 @@
     display: flex;
     justify-content: center;
     padding-top: 0;
+    gap: 10px;
   }
 
   .stories-intro img {
     width: 684px;
     height: 448px;
+  }
+
+  .stories-intro img:hover {
+    margin: 10px;
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .story-detail {
@@ -1008,6 +1043,8 @@
 
   .rus-btn:hover {
     background-color: #1c1a19;
+    border: 2px solid #f55800;
+    border-radius: 8px;
   }
 
   .basic-info .btm-bor {
@@ -1053,15 +1090,6 @@
     font-weight: 700;
     text-align: center;
     padding: 10px 10px;
-  }
-
-  .language ul li,
-  .freamworks ul li,
-  .skills ul li {
-    padding: 10px 0;
-    font-family: arial, sans-serif, 'Inter';
-    font-weight: 400;
-    font-size: 16px;
   }
 
   .contact-form {
@@ -1129,6 +1157,8 @@
 
   .get-in-touch:hover {
     background-color: #1c1a19;
+    border: 2px solid #f55800;
+    border-radius: 8px;
   }
 
   footer {
