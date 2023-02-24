@@ -560,10 +560,19 @@
     cursor: pointer;
   }
 
+  .name-class li {
+    transition: 2s;
+  }
+
+  .name-class li:hover {
+    transform: rotateY(360deg);
+  }
+
   .port-link:hover,
   .about-link:hover,
   .contact-link:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #f55800;
+    padding: 10px;
   }
 
   li {
@@ -686,11 +695,17 @@
     display: flex;
     justify-content: center;
     padding-top: 0;
+    gap: 10px;
   }
 
   .stories-intro img {
     width: 684px;
     height: 448px;
+  }
+  .stories-intro img:hover {
+    margin: 10px;
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .story-detail {
@@ -1008,6 +1023,8 @@
 
   .rus-btn:hover {
     background-color: #1c1a19;
+    border: 2px solid #f55800;
+    border-radius: 8px;
   }
 
   .basic-info .btm-bor {
@@ -1129,6 +1146,8 @@
 
   .get-in-touch:hover {
     background-color: #1c1a19;
+    border: 2px solid #f55800;
+    border-radius: 8px;
   }
 
   footer {
