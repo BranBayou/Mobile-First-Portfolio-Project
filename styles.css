@@ -537,6 +537,7 @@
     background-color: #3c3a39;
     height: 10vh;
     width: 100%;
+    position: fixed;
   }
 
   nav {

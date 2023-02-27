@@ -15,13 +15,13 @@
     <nav>
       <ul class="header-link">
         <div class="name-class">
-          <li><a href="" class="name">John Doe</a></li>
+          <li><a href="#home" class="name">John Doe</a></li>
         </div>
         <div class="right-nav">
-          <li><a href="" class="port-link">Portfolio</a></li>
-          <li><a href="" class="about-link">About</a></li>
-          <li><a href="" class="contact-link">contact</a></li>
-          <li><a href=""><img src="./Img/Icon - Mail.svg" alt=""></a></li>
+          <li><a href="#portfolio" class="port-link">Portfolio</a></li>
+          <li><a href="#about" class="about-link">About</a></li>
+          <li><a href="#contact" class="contact-link">contact</a></li>
+          <li><a href="#message"><img src="./Img/Icon - Mail.svg" alt=""></a></li>
         </div>
         <div class="humburger">
           <li><a href=""><img src="./Img/Union.svg" alt=""></a></li>
@@ -29,7 +29,7 @@
       </ul>
     </nav>
   </header>
-  <section class="head-line">
+  <section class="head-line" id="home">
     <div class="intro">
       <h1 class="greet">Hey There. I’m Bran</h1>
       <h3 class="job details">I’am a Software Developer</h3>
@@ -46,7 +46,7 @@
       </ul>
     </div>
   </section>
-  <section class="works">
+  <section class="works" id="portfolio">
     <div class="resent-work-intro">
       <h2>My Recent Works</h2>
       <img class="border-b" src="./Img/border.svg" alt="">
@@ -159,7 +159,7 @@
       </div>
     </div>
   </section>
-  <section class="about-me">
+  <section class="about-me" id="about">
     <div class="basic-info">
       <h2>About me</h2>
       <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -211,12 +211,12 @@
       </div>
     </div>
   </section>
-  <section class="contact-form">
+  <section class="contact-form" id="contact">
     <div class="form-intro">
       <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     </div>
     <form action="https://formspree.io/f/xyyawdea" method="POST"> 
-      <input class="input-name" type="text" placeholder="Full name" maxlength="30" required>
+      <input id="message" class="input-name" type="text" placeholder="Full name" maxlength="30" required>
       <img class="input-line" src="./Img/Container.svg" alt="">
       <input class="input-email" type="email" placeholder="Email address" required>
       <img class="input-line" src="./Img/Container.svg" alt="">
