@@ -56,7 +56,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://github.com/BranBayou/Mobile-First-Portfolio-Project)
+- [Live Demo Link](https://branbayou.github.io/Mobile-First-Portfolio-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
