@@ -57,6 +57,7 @@
 
 
 - [Live Demo Link](https://branbayou.github.io/Mobile-First-Portfolio-Project/)
+- [Outline Presentation Link](https://www.loom.com/share/33710626cbfa44f9bd50b6aead3ee798)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
