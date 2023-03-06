@@ -17,6 +17,31 @@
     width: 100%;
   }
 
+  .mobile-menu {
+    width: 100%;
+    height: 550px;
+    background-color: #3C3A39;
+    display: none;
+  }
+
+  .close-btn {
+    float: right;
+    padding-top: 20px;
+    padding-right: 35px;
+  }
+
+  .mobile-ul {
+    padding: 60px 20px;
+
+  }
+
+  .menu-li {
+    font-style: 'Inter';
+    font-size: 32px;
+    font-weight: 700;
+    padding: 10px 20px;
+  }
+
   .header-link {
     display: flex;
     justify-content: space-between;
@@ -559,6 +584,10 @@
     font-style: normal;
     font-family: Arial, sans-serif, 'Crete Round';
     cursor: pointer;
+  }
+
+  .mobile-menu {
+    display: none;
   }
 
   li {
