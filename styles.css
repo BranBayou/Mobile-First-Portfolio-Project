@@ -35,7 +35,7 @@
   }
 
   .menu-li {
-    font-style: 'Inter';
+    font-family: arial, sans-serif, 'inter';
     font-size: 32px;
     font-weight: 700;
     padding: 10px 20px;
@@ -510,7 +510,6 @@
     font-size: 15px;
     font-family: 'Inter', arial, sans-serif;
     line-height: 24px;
-    columns: #3c3a39;
     border: none;
     padding-left: 15px;
   }
@@ -1168,7 +1167,6 @@
     font-size: 15px;
     font-family: 'Inter', arial, sans-serif;
     line-height: 24px;
-    columns: #3c3a39;
     border: none;
   }
 
