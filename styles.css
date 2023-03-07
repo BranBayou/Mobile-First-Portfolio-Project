@@ -38,7 +38,11 @@
     font-family: arial, sans-serif, 'inter';
     font-size: 32px;
     font-weight: 700;
-    padding: 10px 20px;
+    padding: 0 20px;
+  }
+
+  .separator {
+    padding-bottom: 10px;
   }
 
   .header-link {

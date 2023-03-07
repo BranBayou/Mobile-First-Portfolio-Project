@@ -108,9 +108,20 @@ To run tests, run the following command:
 
 👤 **Author**
 
+- Berhanu Baye
 - GitHub: [@BranBayou](https://github.com/BranBayou)
 - Twitter: [@bran-baye](https://twitter.com/bran_baye)
 - LinkedIn: [Berhanu Baye](https://www.linkedin.com/in/bran-baye/)
+
+- Drissa touredri
+- GitHub: [@Drissa](https://github.com/touredri)
+- Twitter: [@touredri](https://twitter.com/touredri)
+
+- Fatihah Oduwole
+- GitHub: [@Jeddaa](https://github.com/Jeddaa)
+- Twitter: [@_jeddaah](https://twitter.com/_jeddaah)
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
