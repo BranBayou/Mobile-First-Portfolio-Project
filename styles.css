@@ -785,6 +785,7 @@
 
   .pro-btn {
     display: flex;
+    gap: 10px;
   }
 
   .pro-btn .css-btn {
