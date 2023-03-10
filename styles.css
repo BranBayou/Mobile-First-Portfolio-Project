@@ -549,69 +549,6 @@
     padding: 0 20px;
   }
 
-  .pro-btn {
-    display: flex;
-    justify-content: flex-start;
-    gap: 12px;
-    padding: 5px 0;
-  }
-
-  .pro-btn .css-btn {
-    background-color: #fff;
-    border: 1px solid #8993a4;
-    width: 49px;
-    height: 40px;
-    font-weight: 700;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    color: #091e42;
-    cursor: pointer;
-    margin: 5px 0;
-  }
-
-  .pro-btn .html-btn {
-    background-color: #fff;
-    border: 1px solid #8993a4;
-    width: 56px;
-    height: 40px;
-    font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    color: #091e42;
-    cursor: pointer;
-    margin: 5px 0;
-  }
-
-  .pro-btn .bs-btn {
-    background-color: #fff;
-    border: 1px solid #8993a4;
-    width: 95px;
-    height: 40px;
-    font-weight: 500;
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    color: #091e42;
-    cursor: pointer;
-    margin: 5px 0;
-  }
-
-  .pro-btn .ruby-btn {
-    background-color: #fff;
-    border: 1px solid #8993a4;
-    width: 61px;
-    height: 40px;
-    font-weight: 500;
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    color: #091e42;
-    cursor: pointer;
-    margin: 5px 0;
-  }
-
   .h2-d {
     display: none;
   }
