@@ -786,6 +786,244 @@
     color: #091e42;
   }
 
+  /*refactor css*/
+  
+  .projects-card {
+    width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding-left: 130px;
+    gap: 20px;
+  }
+
+  #main-project0 {
+    grid-column: 3 span;
+    display: flex;
+    gap: 20px;
+  }
+
+  #main-project0 h3 {
+    font-family: 'Crete Round', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    width: 448px;
+    height: 48px;
+  }
+
+  #main-project0 p {
+    font-family: sans-serif, 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    width: 448px;
+    height: 140px;
+    color: #091e42;
+  }
+
+  #main-project0 .Css {
+    background-color: #fff;
+    border: 1px solid #8993a4;
+    width: 49px;
+    height: 40px;
+    font-weight: 700;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #091e42;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project0 .Html {
+    background-color: #fff;
+    border: 1px solid #8993a4;
+    width: 56px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #091e42;
+    cursor: pointer;
+    margin: 5px 0;
+  } 
+
+  #main-project0 .Bs {
+    background-color: #fff;
+    border: 1px solid #8993a4;
+    width: 95px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #091e42;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+  
+  #main-project1 .proInfo,
+  #main-project2 .proInfo,
+  #main-project3 .proInfo,
+  #main-project4 .proInfo,
+  #main-project5 .proInfo,
+  #main-project6 .proInfo {
+    position: relative;
+    margin-top: -55%;
+  }
+  
+  #main-project0 .Rb {
+    background-color: #fff;
+    border: 1px solid #8993a4;
+    width: 61px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #091e42;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project0 .see-pro {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    width: 40%;
+    height: 48px;
+    background-color: #ff6b00;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
+  .cardList .see-pro {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    width: 100%;
+    height: 48px;
+    background-color: #ff6b00;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
+  .flex-div {
+    display: flex;
+    padding-left: 15px;
+    gap: 10px;
+  }
+
+  #main-project1 .flex-div .Css,
+  #main-project2 .flex-div .Css,
+  #main-project3 .flex-div .Css,
+  #main-project4 .flex-div .Css,
+  #main-project5 .flex-div .Css,
+  #main-project6 .flex-div .Css {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 49px;
+    height: 40px;
+    font-weight: 700;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .flex-div .Html,
+  #main-project2 .flex-div .Html,
+  #main-project3 .flex-div .Html,
+  #main-project4 .flex-div .Html,
+  #main-project5 .flex-div .Html,
+  #main-project6 .flex-div .Html {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 56px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .flex-div .Bs,
+  #main-project2 .flex-div .Bs,
+  #main-project3 .flex-div .Bs,
+  #main-project4 .flex-div .Bs,
+  #main-project5 .flex-div .Bs,
+  #main-project6 .flex-div .Bs {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 95px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .flex-div .Rb,
+  #main-project2 .flex-div .Rb,
+  #main-project3 .flex-div .Rb,
+  #main-project4 .flex-div .Rb,
+  #main-project5 .flex-div .Rb,
+  #main-project6 .flex-div .Rb {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 61px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .proInfo p,
+  #main-project2 .proInfo p,
+  #main-project3 .proInfo p,
+  #main-project4 .proInfo p,
+  #main-project5 .proInfo p,
+  #main-project6 .proInfo p {
+    color: #fff;
+    font-family: arial, sans-serif, 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 15px;
+    color: #fff;
+  }
+
+  #main-project1 .proInfo h3,
+  #main-project2 .proInfo h3,
+  #main-project3 .proInfo h3,
+  #main-project4 .proInfo h3,
+  #main-project5 .proInfo h3,
+  #main-project6 .proInfo h3 {
+    color: #fff;
+    font-family: 'Crete Round', arial, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    padding-left: 15px;
+  }
+
+  /* the upper code is for refactor code*/
+
   .pro-btn {
     display: flex;
     gap: 10px;
@@ -1213,4 +1451,91 @@
   .bottom-line {
     display: none;
   }
+
+  /*Popup detail style*/
+
+  .cover-top {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.9;
+    z-index: 100;
+    display: none;
+  }
+
+  .popup {
+    padding: 15px;
+    width: 75vw;
+    margin-left: 200px;
+    font-family: "inter", sans-serif;
+    border: 1px solid #dfe1e6;
+    position: fixed;
+    top: 60px;
+    background-color: white;
+    z-index: 200;
+  }
+
+  .top-popup {
+    margin: 10px 0;
+  }
+
+  .head-and-close {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .head-and-close h3{
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #091e42;
+  }
+
+  #closePopupBtn {
+    padding: 10px;
+  }
+
+  .top-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popup-btn {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    background: #fff;
+    height: 30px;
+    padding: 0 15px;
+    border: 1px solid #979493;
+  }
+
+  .bottom-popup {
+    display: flex;
+    gap: 10px;
+  }
+
+  .bottom-popup p {
+    padding-bottom: 90px;
+    color: #344563;
+  }
+
+  .popup-btn-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    width: 40%;
+    height: 48px;
+    background-color: #ff6b00;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
 }
