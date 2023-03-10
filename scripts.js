@@ -105,11 +105,9 @@ function showProject(projectId){
   `;
 }
 
-
 for (let i = 0; i < works.length; i++) {
   showProject(i);
 }
-
 
 /* Event listener code goes from here to show popup window */ 
 
@@ -197,6 +195,7 @@ const popupData = [
     liveLinks: ['See live','See Source']
   }
 ];
+
 coverTop = document.querySelector('.cover-top');
 popupCover = document.createElement('div');
 popupCover.classList.add('popupCover');
