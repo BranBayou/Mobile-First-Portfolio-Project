@@ -125,7 +125,7 @@ for (let i = 0; i < seeProBtn.length; i += 1) {
 const cover = document.querySelector('.cover');
 
 const popupData = [
-  { close: 'Img/closeVector.svg',
+  { close: 'Img/Icon.svg',
     title: 'Keeping track of hundreds  of components website',
     titleM: 'Multi Post Stories',
     languages:['html','bootstrap','ruby on rails'],

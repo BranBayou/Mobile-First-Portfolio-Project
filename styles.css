@@ -155,11 +155,24 @@
     width: 375px;
   }
 
-  /*refactor code goes from here*/
+  /* refactor code goes from here */
+
   .projects-card {
     width: 100%;
     justify-content: center;
     gap: 20px;
+  }
+
+  .cardList .see-pro {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    width: 375px;
+    height: 48px;
+    background-color: #ff6b00;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
   }
 
   #main-project0 img {
@@ -218,7 +231,7 @@
     color: #091e42;
     cursor: pointer;
     margin: 5px 0;
-  } 
+  }
 
   #main-project0 .Bs {
     background-color: #fff;
@@ -233,7 +246,7 @@
     cursor: pointer;
     margin: 5px 0;
   }
-  
+
   #main-project0 .Rb {
     background-color: #fff;
     border: 1px solid #8993a4;
@@ -264,18 +277,6 @@
     display: flex;
     gap: 15px;
     padding-left: 12px;
-  }
-
-  .cardList .see-pro {
-    color: #fff;
-    font-weight: 700;
-    font-size: 17px;
-    width: 375px;
-    height: 48px;
-    background-color: #ff6b00;
-    border: none;
-    cursor: pointer;
-    margin-top: 15px;
   }
 
   #main-project1 .proInfo,
@@ -387,7 +388,6 @@
     font-weight: 400;
     font-size: 16px;
     padding-left: 15px;
-    color: #fff;
   }
 
   #main-project1 .proInfo h3,
@@ -404,7 +404,7 @@
     padding-left: 15px;
   }
 
-  /*Popup syle code detail for mobile*/
+  /* Popup syle code detail for mobile */
 
   .cover-top {
     position: fixed;
@@ -419,8 +419,7 @@
   }
 
   .popup {
-    
-    width: 375ppx;
+    width: 375px;
     height: 90vh;
     font-family: "inter", sans-serif;
     border: 1px solid #dfe1e6;
@@ -1213,254 +1212,6 @@
     gap: 10px;
   }
 
-  .pro-btn .css-btn {
-    background-color: #fff;
-    border: 1px solid #8993a4;
-    width: 49px;
-    height: 40px;
-    font-weight: 700;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    color: #091e42;
-    cursor: pointer;
-    margin: 5px 0;
-  }
-
-  .pro-btn .html-btn {
-    background-color: #fff;
-    border: 1px solid #8993a4;
-    width: 56px;
-    height: 40px;
-    font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    color: #091e42;
-    cursor: pointer;
-    margin: 5px 0;
-  }
-
-  .pro-btn .bs-btn {
-    background-color: #fff;
-    border: 1px solid #8993a4;
-    width: 95px;
-    height: 40px;
-    font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    color: #091e42;
-    cursor: pointer;
-    margin: 5px 0;
-  }
-
-  .pro-btn .ruby-btn {
-    background-color: #fff;
-    border: 1px solid #8993a4;
-    width: 61px;
-    height: 40px;
-    font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    color: #091e42;
-    cursor: pointer;
-    margin: 5px 0;
-  }
-
-  .submit-pro-btn #mul-pro {
-    color: #fff;
-    font-weight: 700;
-    font-size: 17px;
-    width: 124px;
-    height: 48px;
-    background-color: #ff6b00;
-    gap: 10px;
-    border: none;
-    margin: 5px 0;
-    cursor: pointer;
-  }
-
-  .card-2 h2,
-  .card-3 h2,
-  .card-4 h2,
-  .card-5 h2,
-  .card-6 h2 {
-    color: #fff;
-    font-family: 'Crete Round', arial, sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    padding: 0 10px;
-  }
-
-  .card-1 p,
-  .card-2 p,
-  .card-3 p,
-  .card-4 p,
-  .card-5 p,
-  .card-6 p {
-    color: #fff;
-    font-family: arial, sans-serif, 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-    width: 100%;
-    padding: 0 10px;
-  }
-
-  .card-1 h2,
-  .card-1 p,
-  .card-1 .html-btn,
-  .card-1 .bs-btn,
-  .card-1 .ruby-btn {
-    display: none;
-  }
-
-  .card-2 .see-pro,
-  .card-3 .see-pro,
-  .card-4 .see-pro,
-  .card-5 .see-pro,
-  .card-6 .see-pro {
-    display: none;
-  }
-
-  .card-2-ul,
-  .card-3-ul,
-  .card-4-ul,
-  .card-5-ul,
-  .card-6-ul {
-    display: flex;
-    padding-left: 10px;
-    gap: 10px;
-  }
-
-  .card-1 {
-    background-image: url('./Img/Img\ Placeholder\ \(2\).svg');
-  }
-
-  .card-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 158px;
-    background-image: url('./Img/Img\ Placeholder\ \(3\).svg');
-  }
-
-  .card-3 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 200px;
-    background-image: url('./Img/Img\ Placeholder\ \(4\).svg');
-  }
-
-  .card-4 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 157px;
-    background-image: url('./Img/Img\ Placeholder\ \(5\).svg');
-  }
-
-  .card-5 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 157px;
-    background-image: url('./Img/Img\ Placeholder\ \(6\).svg');
-  }
-
-  .card-6 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 200px;
-    background-image: url('./Img/Img\ Placeholder\ \(7\).svg');
-  }
-
-  [class^='card-'] {
-    grid-column: span 4;
-    width: 369px;
-    height: 435px;
-    justify-self: center;
-  }
-
-  .h2-m {
-    display: none;
-  }
-
-  [class*='html-btn'] {
-    color: #fff;
-    background: rgba(255, 255, 255, 0.24);
-    border: 1px solid #8993a4;
-    width: 56px;
-    height: 40px;
-    font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    cursor: pointer;
-    margin: 10px 0;
-  }
-
-  [class*='bs-btn'] {
-    background: rgba(255, 255, 255, 0.24);
-    border: 1px solid #8993a4;
-    width: 95px;
-    height: 40px;
-    font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    color: #fff;
-    cursor: pointer;
-    margin: 10px 0;
-  }
-
-  [class*='ruby-btn'] {
-    background: rgba(255, 255, 255, 0.24);
-    border: 1px solid #8993a4;
-    width: 61px;
-    height: 40px;
-    font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    color: #fff;
-    cursor: pointer;
-    margin: 10px 0;
-  }
-
-  .see-pro-d-new {
-    color: #fff;
-    font-weight: 700;
-    font-size: 17px;
-    width: 100%;
-    height: 48px;
-    background-color: #ff6b00;
-    border: none;
-    cursor: pointer;
-    margin-top: 387px;
-  }
-
-  .card-1 .see-pro-d {
-    display: none;
-  }
-
-  .about-me {
-    width: 100%;
-    display: grid;
-    grid-template-rows: auto auto;
-    background-color: #262626;
-    background-image: url('./Img/Groupabm.svg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-position-x: 100%;
-    background-position-y: 10%;
-    padding-bottom: 100px;
-  }
-
   .basic-info {
     width: 1100px;
     margin: 0 auto;
@@ -1683,6 +1434,8 @@
 
   #closePopupBtn {
     padding: 10px;
+    border: none;
+    background-color: #fff;
   }
 
   .top-bottom {
