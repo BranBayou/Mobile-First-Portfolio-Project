@@ -6,7 +6,6 @@
 
 @media screen and (max-width: 768px) {
   body {
-    width: 375px;
     height: 100%;
     margin: 0 auto;
   }
@@ -43,6 +42,7 @@
 
   .separator {
     padding-bottom: 10px;
+    width: 90%;
   }
 
   .header-link {
@@ -147,14 +147,6 @@
     align-self: flex-start;
   }
 
-  .resent-work-intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    width: 375px;
-  }
-
   /* refactor code goes from here */
 
   .projects-card {
@@ -167,7 +159,7 @@
     color: #fff;
     font-weight: 700;
     font-size: 17px;
-    width: 375px;
+    width: 100%;
     height: 48px;
     background-color: #ff6b00;
     border: none;
@@ -176,7 +168,7 @@
   }
 
   .bottom-popup img {
-    width: 335px;
+    width: 90%;
   }
 
   .works img {
@@ -184,9 +176,10 @@
   }
 
   #main-project0 img {
-    width: 375px;
+    width: 100%;
     height: auto;
-    align-self: self-start;
+    align-self: flex-start;
+    padding: 0 0 24px 0;
   }
 
   #main-project0 {
@@ -195,7 +188,7 @@
   }
 
   .head-and-close h3 {
-    width: 350px;
+    width: 90%;
     font-family: sans-serif, 'Crete Round';
     font-weight: 400;
     font-size: 22px;
@@ -209,12 +202,12 @@
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
-    width: 448px;
+    width: auto;
     height: 48px;
   }
 
   .bottom-popup p {
-    width: 350px;
+    width: 90%px;
     padding-bottom: 30px;
     color: #344563;
   }
@@ -232,7 +225,6 @@
     font-family: sans-serif, 'Inter';
     font-weight: 400;
     font-size: 20px;
-    width: 370px;
     height: 140px;
     color: #091e42;
   }
@@ -311,13 +303,23 @@
     padding-left: 12px;
   }
 
+  #main-project1,
+  #main-project2,
+  #main-project3,
+  #main-project4,
+  #main-project5,
+  #main-project6 {
+    width: 100%;
+    padding: 20px;
+  }
+
   #main-project1 .proInfo,
   #main-project2 .proInfo,
   #main-project3 .proInfo,
   #main-project4 .proInfo,
   #main-project5 .proInfo,
   #main-project6 .proInfo {
-    width: 375px;
+    
     position: relative;
     margin-top: -45%;
   }
@@ -328,7 +330,7 @@
   #main-project4 img,
   #main-project5 img,
   #main-project6 img {
-    width: 375px;
+    width: 100%;
     margin: 0;
     padding: 0;
   }
@@ -452,7 +454,7 @@
 
   .popup {
     padding: 5px;
-    width: 350px;
+    width: 85%;
     height: 90vh;
     font-family: "inter", sans-serif;
     border: 1px solid #dfe1e6;
@@ -467,7 +469,7 @@
   .head-and-close {
     display: flex;
     flex-direction: row-reverse;
-    width: 330px;
+    width: 90%;
   }
 
   .top-bottom {
@@ -864,7 +866,7 @@
   }
 
   .works {
-    width: 1100px;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     justify-content: center;
@@ -941,7 +943,7 @@
   /* refactor css */
 
   .projects-card {
-    width: 1100px;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -1398,14 +1400,18 @@
 
   .popup {
     padding: 15px;
-    width: 70vw;
-    margin-left: 200px;
+    width: 90%;
+    margin-left: 100px;
     font-family: "inter", sans-serif;
     border: 1px solid #dfe1e6;
     position: fixed;
     top: 60px;
     background-color: white;
     z-index: 200;
+  }
+
+  .bottom-popup img {
+    width: 85%;
   }
 
   .top-popup {

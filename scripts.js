@@ -242,3 +242,22 @@ function addClass() {
   }
 }
 addClass();
+
+/* 
+const coverTop = document.querySelector('.cover-top');
+const popupCover = document.createElement('div');
+popupCover.classList.add('popupCover');
+
+function showModal () {
+  popupCover.style.display = 'block';
+  coverTop.style.display = 'block';
+  body.appendChild(popupCover);
+
+  const modal = Object.assign({}, works[0], {
+    
+  })
+} 
+
+for (let i = 0; i <= works.length; i += 1){
+}
+*/
