@@ -6,7 +6,6 @@
 
 @media screen and (max-width: 768px) {
   body {
-    width: 375px;
     height: 100%;
     margin: 0 auto;
   }
@@ -43,6 +42,7 @@
 
   .separator {
     padding-bottom: 10px;
+    width: 90%;
   }
 
   .header-link {
