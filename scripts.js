@@ -172,8 +172,10 @@ function showPopup(projectView) {
     <div class="bottom-popup-desc">
       <p class="desC">${works[projectView].description}</p>
       <p class="desM">${works[projectView].descriptionM}</p>
-      <a href="https://branbayou.github.io/Mobile-First-Portfolio-Project/"><button type="button" class="popup-btn-link">${works[projectView].liveLinks[0]}</button></a>
-      <a href="https://github.com/BranBayou"><button type="button" class="popup-btn-link">${works[projectView].liveLinks[1]}</button></a>
+      <div class="live-links">
+        <a href="https://branbayou.github.io/Mobile-First-Portfolio-Project/"><button type="button" class="popup-btn-link">${works[projectView].liveLinks[0]}</button></a>
+        <a href="https://github.com/BranBayou"><button type="button" class="popup-btn-link">${works[projectView].liveLinks[1]}</button></a>
+      </div>
     </div>
   </div>
 </section>
@@ -199,22 +201,3 @@ function addClass() {
   }
 }
 addClass();
-
-/* 
-const coverTop = document.querySelector('.cover-top');
-const popupCover = document.createElement('div');
-popupCover.classList.add('popupCover');
-
-function showModal () {
-  popupCover.style.display = 'block';
-  coverTop.style.display = 'block';
-  body.appendChild(popupCover);
-
-  const modal = Object.assign({}, works[0], {
-    
-  })
-} 
-
-for (let i = 0; i <= works.length; i += 1){
-}
-*/

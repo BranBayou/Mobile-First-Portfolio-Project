@@ -166,12 +166,12 @@
     margin-top: 15px;
   }
 
-  .bottom-popup img {
-    width: 90%;
-  }
-
   .works img {
     padding: 25px;
+  }
+
+  .bottom-popup img {
+    width: 100%;
   }
 
   #main-project0 img {
@@ -206,7 +206,7 @@
   }
 
   .bottom-popup p {
-    width: 90%px;
+    width: 90%;
     padding-bottom: 30px;
     color: #344563;
   }
@@ -318,7 +318,6 @@
   #main-project4 .proInfo,
   #main-project5 .proInfo,
   #main-project6 .proInfo {
-    
     position: relative;
     margin-top: -45%;
   }
@@ -463,16 +462,12 @@
     background-color: white;
     z-index: 200;
     overflow-y: auto;
-    max-height: calc(120vh - 210px);
+    max-height: calc(130vh - 210px);
   }
 
   .head-and-close {
     display: flex;
     flex-direction: row-reverse;
-    width: 100%;
-  }
-
-  .bottom-popup img {
     width: 100%;
   }
 
@@ -907,6 +902,10 @@
   .stories-intro img {
     width: 684px;
     height: 448px;
+  }
+
+  .bottom-popup img {
+    width: 85%;
   }
 
   .stories-intro img:hover {
@@ -1376,7 +1375,7 @@
   }
 
   /* Popup detail style */
-  
+
   .cover-top {
     position: fixed;
     top: 0;
@@ -1401,10 +1400,6 @@
     z-index: 200;
     overflow-y: auto;
     max-height: calc(120vh - 210px);
-  }
-
-  .bottom-popup img {
-    width: 85%;
   }
 
   .top-popup {
@@ -1453,6 +1448,12 @@
     border: none;
     cursor: pointer;
     margin-top: 15px;
+  }
+
+  .bottom-popup-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .desM {
