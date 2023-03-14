@@ -129,6 +129,7 @@
   }
 
   .works {
+    width: 100%;
     display: grid;
     grid-template-rows: auto auto auto auto auto auto auto auto;
     row-gap: 10px;
@@ -142,56 +143,92 @@
     font-size: 40px;
     font-weight: 400;
     font-style: normal;
-    padding: 100px 24px 10px;
+    padding: 100px 0 50px 0;
+    align-self: flex-start;
+  }
+
+  /* refactor code goes from here */
+
+  .projects-card {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cardList .see-pro {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    width: 100%;
+    height: 48px;
+    background-color: #ff6b00;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
   }
 
   .works img {
     padding: 25px;
   }
 
-  .stories-intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .stories-intro img {
+  .bottom-popup img {
     width: 100%;
   }
 
-  .stories-intro h2 {
-    font-size: 32px;
-    font-weight: 400;
-    color: #091e42;
-    font-family: 'Crete Round', arial, sans-serif;
+  #main-project0 img {
+    width: 100%;
+    height: auto;
     align-self: flex-start;
-    padding: 0 20px;
+    padding: 0 0 24px 0;
   }
 
-  .stories-intro p {
-    font-weight: 400;
-    font-size: 16px;
-    color: #091e42;
-    font-family: arial, sans-serif, 'Inter';
-    line-height: 24px;
-    padding: 0 20px;
-  }
-
-  .stories-intro .projects {
-    display: flex;
-    flex-direction: column;
+  #main-project0 {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 24px;
   }
 
-  .pro-btn {
-    display: flex;
-    justify-content: flex-start;
-    gap: 12px;
-    padding: 5px 0;
+  .head-and-close h3 {
+    width: 90%;
+    font-family: sans-serif, 'Crete Round';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 44px;
+    color: #091e42;
   }
 
-  .pro-btn .css-btn {
+  #main-project0 h3 {
+    font-family: 'Crete Round', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    width: auto;
+    height: 48px;
+  }
+
+  .bottom-popup p {
+    width: 90%;
+    padding-bottom: 30px;
+    color: #344563;
+  }
+
+  .basic-info p {
+    font-size: 16px;
+    color: #f4f5f7;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 24px;
+    padding: 0 24px;
+  }
+
+  #main-project0 p {
+    font-family: sans-serif, 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    height: 140px;
+    color: #091e42;
+  }
+
+  #main-project0 .Css {
     background-color: #fff;
     border: 1px solid #8993a4;
     width: 49px;
@@ -205,7 +242,7 @@
     margin: 5px 0;
   }
 
-  .pro-btn .html-btn {
+  #main-project0 .Html {
     background-color: #fff;
     border: 1px solid #8993a4;
     width: 56px;
@@ -219,13 +256,13 @@
     margin: 5px 0;
   }
 
-  .pro-btn .bs-btn {
+  #main-project0 .Bs {
     background-color: #fff;
     border: 1px solid #8993a4;
     width: 95px;
     height: 40px;
     font-weight: 500;
-    font-family: 'Inter', sans-serif;
+    font-family: arial, sans-serif, 'Inter';
     font-size: 15px;
     line-height: 20px;
     color: #091e42;
@@ -233,13 +270,13 @@
     margin: 5px 0;
   }
 
-  .pro-btn .ruby-btn {
+  #main-project0 .Rb {
     background-color: #fff;
     border: 1px solid #8993a4;
     width: 61px;
     height: 40px;
     font-weight: 500;
-    font-family: 'Inter', sans-serif;
+    font-family: arial, sans-serif, 'Inter';
     font-size: 15px;
     line-height: 20px;
     color: #091e42;
@@ -247,126 +284,246 @@
     margin: 5px 0;
   }
 
-  .submit-pro-btn #mul-pro {
+  #main-project0 .see-pro {
     color: #fff;
     font-weight: 700;
     font-size: 17px;
-    width: 124px;
-    height: 48px;
-    background-color: #ff6b00;
-    gap: 10px;
-    border: none;
-    margin: 5px 0;
-    cursor: pointer;
-  }
-
-  .card-1,
-  .card-2,
-  .card-3,
-  .card-4,
-  .card-5,
-  .card-6 {
-    background-image: url('./Img/bg-img.svg');
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .card-1 h2,
-  .card-2 h2,
-  .card-3 h2,
-  .card-4 h2,
-  .card-5 h2,
-  .card-6 h2 {
-    color: #fff;
-    font-family: 'Crete Round', arial, sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
-  }
-
-  .card-1 p,
-  .card-2 p,
-  .card-3 p,
-  .card-4 p,
-  .card-5 p,
-  .card-6 p {
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    width: 100%;
-    padding: 0 24px;
-  }
-
-  .h2-d {
-    display: none;
-  }
-
-  .card-1-ul,
-  .card-2-ul,
-  .card-3-ul,
-  .card-4-ul,
-  .card-5-ul,
-  .card-6-ul {
-    display: flex;
-    gap: 12px;
-    padding: 5px 24px;
-  }
-
-  [class*='html-btn'] {
-    color: #fff;
-    background: rgba(255, 255, 255, 0.24);
-    border: 1px solid #8993a4;
-    width: 56px;
-    height: 40px;
-    font-weight: 500;
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    cursor: pointer;
-  }
-
-  [class*='bs-btn'] {
-    background: rgba(255, 255, 255, 0.24);
-    border: 1px solid #8993a4;
-    width: 95px;
-    height: 40px;
-    font-weight: 500;
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    color: #fff;
-    cursor: pointer;
-  }
-
-  [class*='ruby-btn'] {
-    background: rgba(255, 255, 255, 0.24);
-    border: 1px solid #8993a4;
-    width: 61px;
-    height: 40px;
-    font-weight: 500;
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    color: #fff;
-    cursor: pointer;
-  }
-
-  .hidesee-pro {
-    display: none;
-  }
-
-  [class*='see-pro'] {
-    color: #fff;
-    font-weight: 700;
-    font-size: 17px;
-    width: 100%;
+    width: 40%;
     height: 48px;
     background-color: #ff6b00;
     border: none;
     cursor: pointer;
     margin-top: 15px;
+  }
+
+  .flex-div {
+    display: flex;
+    gap: 15px;
+    padding-left: 12px;
+  }
+
+  #main-project1,
+  #main-project2,
+  #main-project3,
+  #main-project4,
+  #main-project5,
+  #main-project6 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-project1 .proInfo,
+  #main-project2 .proInfo,
+  #main-project3 .proInfo,
+  #main-project4 .proInfo,
+  #main-project5 .proInfo,
+  #main-project6 .proInfo {
+    position: relative;
+    margin-top: -45%;
+  }
+
+  #main-project1 img,
+  #main-project2 img,
+  #main-project3 img,
+  #main-project4 img,
+  #main-project5 img,
+  #main-project6 img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #main-project1 .flex-div .Css,
+  #main-project2 .flex-div .Css,
+  #main-project3 .flex-div .Css,
+  #main-project4 .flex-div .Css,
+  #main-project5 .flex-div .Css,
+  #main-project6 .flex-div .Css {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 49px;
+    height: 40px;
+    font-weight: 700;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .flex-div .Html,
+  #main-project2 .flex-div .Html,
+  #main-project3 .flex-div .Html,
+  #main-project4 .flex-div .Html,
+  #main-project5 .flex-div .Html,
+  #main-project6 .flex-div .Html {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 56px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .flex-div .Bs,
+  #main-project2 .flex-div .Bs,
+  #main-project3 .flex-div .Bs,
+  #main-project4 .flex-div .Bs,
+  #main-project5 .flex-div .Bs,
+  #main-project6 .flex-div .Bs {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 95px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .flex-div .Rb,
+  #main-project2 .flex-div .Rb,
+  #main-project3 .flex-div .Rb,
+  #main-project4 .flex-div .Rb,
+  #main-project5 .flex-div .Rb,
+  #main-project6 .flex-div .Rb {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 61px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .proInfo p,
+  #main-project2 .proInfo p,
+  #main-project3 .proInfo p,
+  #main-project4 .proInfo p,
+  #main-project5 .proInfo p,
+  #main-project6 .proInfo p {
+    color: #fff;
+    font-family: arial, sans-serif, 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+
+  #main-project1 .proInfo h3,
+  #main-project2 .proInfo h3,
+  #main-project3 .proInfo h3,
+  #main-project4 .proInfo h3,
+  #main-project5 .proInfo h3,
+  #main-project6 .proInfo h3 {
+    color: #fff;
+    font-family: 'Crete Round', arial, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    padding-left: 15px;
+  }
+
+  /* Popup syle code detail for mobile */
+
+  .cover-top {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    z-index: 100;
+    display: none;
+  }
+
+  .popup {
+    padding: 5px;
+    width: 95%;
+    height: auto;
+    font-family: "inter", sans-serif;
+    border: 1px solid #dfe1e6;
+    position: fixed;
+    top: 10px;
+    margin: 0 12px 12px 12px;
+    background-color: white;
+    z-index: 200;
+    overflow-y: auto;
+    max-height: calc(130vh - 210px);
+  }
+
+  .head-and-close {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+
+  .top-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popup-btn {
+    font-family: Arial, Helvetica, sans-serif, 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    background: #fff;
+    height: 30px;
+    padding: 0 15px;
+    border: 1px solid #979493;
+  }
+
+  .bottom-popup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 12px;
+  }
+
+  .desC {
+    display: none;
+  }
+
+  .tittleC {
+    display: none;
+  }
+
+  .popup-btn-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    width: 40%;
+    height: 48px;
+    background-color: #ff6b00;
+    border: none;
+    cursor: pointer;
+    margin-top: 0;
+  }
+
+  /* popup style code end */
+
+  .stories-intro .projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .h2-d {
+    display: none;
   }
 
   .about-me {
@@ -395,15 +552,6 @@
     font-family: 'Crete Round', sans-serif;
     line-height: 88px;
     color: #ff6b00;
-    padding: 0 24px;
-  }
-
-  .basic-info p {
-    font-size: 16px;
-    color: #f4f5f7;
-    font-weight: 400;
-    font-family: 'Inter', sans-serif;
-    line-height: 24px;
     padding: 0 24px;
   }
 
@@ -712,9 +860,9 @@
   }
 
   .works {
-    width: 1100px;
+    width: 85%;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 10px;
     margin: 0 auto;
@@ -723,7 +871,7 @@
 
   .resent-work-intro {
     margin-bottom: 100px;
-    grid-column: span 12;
+    grid-column: span 3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -756,6 +904,10 @@
     height: 448px;
   }
 
+  .bottom-popup img {
+    width: 85%;
+  }
+
   .stories-intro img:hover {
     margin: 10px;
     transform: scale(1.03);
@@ -777,7 +929,59 @@
     height: 48px;
   }
 
-  .story-detail p {
+  /* refactor css */
+
+  .projects-card {
+    padding-left: 30px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+  }
+
+  #main-project0 {
+    grid-column: 3 span;
+    display: flex;
+    gap: 20px;
+  }
+
+  .head-and-close h3 {
+    font-family: Arial, Helvetica, sans-serif, 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #091e42;
+  }
+
+  #main-project0 h3 {
+    font-family: 'Crete Round', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    width: 448px;
+    height: 48px;
+  }
+
+  .basic-info p {
+    width: 566px;
+    height: 148px;
+    font-family: sans-serif, 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #f4f5f7;
+    padding-top: 24px;
+  }
+
+  .bottom-popup p {
+    padding-bottom: 45px;
+    color: #344563;
+  }
+
+  #main-project0 p {
     font-family: sans-serif, 'Inter';
     font-weight: 400;
     font-size: 20px;
@@ -786,12 +990,7 @@
     color: #091e42;
   }
 
-  .pro-btn {
-    display: flex;
-    gap: 10px;
-  }
-
-  .pro-btn .css-btn {
+  #main-project0 .Css {
     background-color: #fff;
     border: 1px solid #8993a4;
     width: 49px;
@@ -805,7 +1004,7 @@
     margin: 5px 0;
   }
 
-  .pro-btn .html-btn {
+  #main-project0 .Html {
     background-color: #fff;
     border: 1px solid #8993a4;
     width: 56px;
@@ -819,7 +1018,7 @@
     margin: 5px 0;
   }
 
-  .pro-btn .bs-btn {
+  #main-project0 .Bs {
     background-color: #fff;
     border: 1px solid #8993a4;
     width: 95px;
@@ -833,7 +1032,7 @@
     margin: 5px 0;
   }
 
-  .pro-btn .ruby-btn {
+  #main-project0 .Rb {
     background-color: #fff;
     border: 1px solid #8993a4;
     width: 61px;
@@ -847,183 +1046,154 @@
     margin: 5px 0;
   }
 
-  .submit-pro-btn #mul-pro {
+  .cardList .see-pro {
     color: #fff;
     font-weight: 700;
     font-size: 17px;
-    width: 124px;
+    width: 100%;
     height: 48px;
     background-color: #ff6b00;
-    gap: 10px;
     border: none;
-    margin: 5px 0;
     cursor: pointer;
+    margin-top: 15px;
   }
 
-  .card-2 h2,
-  .card-3 h2,
-  .card-4 h2,
-  .card-5 h2,
-  .card-6 h2 {
+  #main-project0 .see-pro {
     color: #fff;
-    font-family: 'Crete Round', arial, sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    padding: 0 10px;
+    font-weight: 700;
+    font-size: 17px;
+    width: 40%;
+    height: 48px;
+    background-color: #ff6b00;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
   }
 
-  .card-1 p,
-  .card-2 p,
-  .card-3 p,
-  .card-4 p,
-  .card-5 p,
-  .card-6 p {
+  #main-project1 .proInfo,
+  #main-project2 .proInfo,
+  #main-project3 .proInfo,
+  #main-project4 .proInfo,
+  #main-project5 .proInfo,
+  #main-project6 .proInfo {
+    position: relative;
+    margin-top: -55%;
+  }
+
+  .flex-div {
+    display: flex;
+    padding-left: 15px;
+    gap: 10px;
+  }
+
+  #main-project1 .flex-div .Css,
+  #main-project2 .flex-div .Css,
+  #main-project3 .flex-div .Css,
+  #main-project4 .flex-div .Css,
+  #main-project5 .flex-div .Css,
+  #main-project6 .flex-div .Css {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 49px;
+    height: 40px;
+    font-weight: 700;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .flex-div .Html,
+  #main-project2 .flex-div .Html,
+  #main-project3 .flex-div .Html,
+  #main-project4 .flex-div .Html,
+  #main-project5 .flex-div .Html,
+  #main-project6 .flex-div .Html {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 56px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .flex-div .Bs,
+  #main-project2 .flex-div .Bs,
+  #main-project3 .flex-div .Bs,
+  #main-project4 .flex-div .Bs,
+  #main-project5 .flex-div .Bs,
+  #main-project6 .flex-div .Bs {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 95px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .flex-div .Rb,
+  #main-project2 .flex-div .Rb,
+  #main-project3 .flex-div .Rb,
+  #main-project4 .flex-div .Rb,
+  #main-project5 .flex-div .Rb,
+  #main-project6 .flex-div .Rb {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #8993a4;
+    width: 61px;
+    height: 40px;
+    font-weight: 500;
+    font-family: arial, sans-serif, 'Inter';
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  #main-project1 .proInfo p,
+  #main-project2 .proInfo p,
+  #main-project3 .proInfo p,
+  #main-project4 .proInfo p,
+  #main-project5 .proInfo p,
+  #main-project6 .proInfo p {
     color: #fff;
     font-family: arial, sans-serif, 'Inter';
     font-weight: 400;
     font-size: 16px;
-    width: 100%;
-    padding: 0 10px;
+    padding-left: 15px;
   }
 
-  .card-1 h2,
-  .card-1 p,
-  .card-1 .html-btn,
-  .card-1 .bs-btn,
-  .card-1 .ruby-btn {
-    display: none;
+  #main-project1 .proInfo h3,
+  #main-project2 .proInfo h3,
+  #main-project3 .proInfo h3,
+  #main-project4 .proInfo h3,
+  #main-project5 .proInfo h3,
+  #main-project6 .proInfo h3 {
+    color: #fff;
+    font-family: 'Crete Round', arial, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    padding-left: 15px;
   }
 
-  .card-2 .see-pro,
-  .card-3 .see-pro,
-  .card-4 .see-pro,
-  .card-5 .see-pro,
-  .card-6 .see-pro {
-    display: none;
-  }
+  /* the upper code is for refactor code */
 
-  .card-2-ul,
-  .card-3-ul,
-  .card-4-ul,
-  .card-5-ul,
-  .card-6-ul {
+  .pro-btn {
     display: flex;
-    padding-left: 10px;
     gap: 10px;
-  }
-
-  .card-1 {
-    background-image: url('./Img/Img\ Placeholder\ \(2\).svg');
-  }
-
-  .card-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 158px;
-    background-image: url('./Img/Img\ Placeholder\ \(3\).svg');
-  }
-
-  .card-3 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 200px;
-    background-image: url('./Img/Img\ Placeholder\ \(4\).svg');
-  }
-
-  .card-4 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 157px;
-    background-image: url('./Img/Img\ Placeholder\ \(5\).svg');
-  }
-
-  .card-5 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 157px;
-    background-image: url('./Img/Img\ Placeholder\ \(6\).svg');
-  }
-
-  .card-6 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 200px;
-    background-image: url('./Img/Img\ Placeholder\ \(7\).svg');
-  }
-
-  [class^='card-'] {
-    grid-column: span 4;
-    width: 369px;
-    height: 435px;
-    justify-self: center;
-  }
-
-  .h2-m {
-    display: none;
-  }
-
-  [class*='html-btn'] {
-    color: #fff;
-    background: rgba(255, 255, 255, 0.24);
-    border: 1px solid #8993a4;
-    width: 56px;
-    height: 40px;
-    font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    cursor: pointer;
-    margin: 10px 0;
-  }
-
-  [class*='bs-btn'] {
-    background: rgba(255, 255, 255, 0.24);
-    border: 1px solid #8993a4;
-    width: 95px;
-    height: 40px;
-    font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    color: #fff;
-    cursor: pointer;
-    margin: 10px 0;
-  }
-
-  [class*='ruby-btn'] {
-    background: rgba(255, 255, 255, 0.24);
-    border: 1px solid #8993a4;
-    width: 61px;
-    height: 40px;
-    font-weight: 500;
-    font-family: arial, sans-serif, 'Inter';
-    font-size: 15px;
-    line-height: 20px;
-    color: #fff;
-    cursor: pointer;
-    margin: 10px 0;
-  }
-
-  .see-pro-d-new {
-    color: #fff;
-    font-weight: 700;
-    font-size: 17px;
-    width: 100%;
-    height: 48px;
-    background-color: #ff6b00;
-    border: none;
-    cursor: pointer;
-    margin-top: 387px;
-  }
-
-  .card-1 .see-pro-d {
-    display: none;
   }
 
   .about-me {
@@ -1053,16 +1223,6 @@
     width: 566px;
     height: 78px;
     color: #f55800;
-  }
-
-  .basic-info p {
-    width: 566px;
-    height: 148px;
-    font-family: sans-serif, 'Inter';
-    font-weight: 400;
-    font-size: 20px;
-    color: #f4f5f7;
-    padding-top: 24px;
   }
 
   .basic-info .rus-btn {
@@ -1211,6 +1371,96 @@
   }
 
   .bottom-line {
+    display: none;
+  }
+
+  /* Popup detail style */
+
+  .cover-top {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    z-index: 100;
+    display: none;
+  }
+
+  .popup {
+    padding: 15px;
+    width: 80%;
+    margin-left: 100px;
+    font-family: "inter", sans-serif;
+    border: 1px solid #dfe1e6;
+    position: fixed;
+    top: 60px;
+    background-color: white;
+    z-index: 200;
+    overflow-y: auto;
+    max-height: calc(120vh - 210px);
+  }
+
+  .top-popup {
+    margin: 10px 0;
+  }
+
+  .head-and-close {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  #closePopupBtn {
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+  }
+
+  .top-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popup-btn {
+    font-family: Arial, Helvetica, sans-serif, 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    background: #fff;
+    height: 30px;
+    padding: 0 15px;
+    border: 1px solid #979493;
+  }
+
+  .bottom-popup {
+    display: flex;
+    gap: 10px;
+  }
+
+  .popup-btn-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    width: 40%;
+    height: 48px;
+    background-color: #ff6b00;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
+  .bottom-popup-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .desM {
+    display: none;
+  }
+
+  .tittleM {
     display: none;
   }
 }
