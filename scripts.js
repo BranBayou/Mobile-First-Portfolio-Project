@@ -39,44 +39,72 @@ const works = [
   {
     image: 'Img/dver.svg',
     title: 'Multi-Post Stories',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    titleC: 'Keeping track of hundreds  of components website',
+    titleM: 'Multi Post Stories',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['css', 'html', 'bootstrap', 'ruby'],
+    liveLinks: ['See live', 'See Source'],
   },
   {
     image: 'Img/Img Placeholder (2).svg',
     title: 'Multi-Post Stories',
-    descrtiption: "A daily selection of privately personalized reads; no  accounts or sign-ups required. has been the industry's standard dummy  text ever since the 1500s, when an unknown printer took a standard dummy   text.",
+    titleC: 'Keeping track of hundreds  of components website',
+    titleM: 'Multi Post Stories',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['css', 'html', 'bootstrap', 'ruby'],
+    liveLinks: ['See live', 'See Source'],
   },
   {
     image: 'Img/Img Placeholder (3).svg',
     title: 'Data Dashboard Healthcare',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    titleC: 'Keeping track of hundreds  of components website',
+    titleM: 'Multi Post Stories',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['css', 'html', 'bootstrap', 'ruby'],
+    liveLinks: ['See live', 'See Source'],
   },
   {
     image: 'Img/Img Placeholder (4).svg',
     title: 'Website Protfolio',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    titleC: 'Keeping track of hundreds  of components website',
+    titleM: 'Multi Post Stories',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['css', 'html', 'bootstrap', 'ruby'],
+    liveLinks: ['See live', 'See Source'],
   },
   {
     image: 'Img/Img Placeholder (5).svg',
     title: 'Profesional Art Printing Data',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    titleC: 'Keeping track of hundreds  of components website',
+    titleM: 'Multi Post Stories',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['css', 'html', 'bootstrap', 'ruby'],
+    liveLinks: ['See live', 'See Source'],
   },
   {
     image: 'Img/Img Placeholder (6).svg',
     title: 'Data Dashboard Healthcare',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    titleC: 'Keeping track of hundreds  of components website',
+    titleM: 'Multi Post Stories',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['css', 'html', 'bootstrap', 'ruby'],
+    liveLinks: ['See live', 'See Source'],
   },
   {
     image: 'Img/Img Placeholder (7).svg',
     title: 'Website Protfolio',
-    descrtiption: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    titleC: 'Keeping track of hundreds  of components website',
+    titleM: 'Multi Post Stories',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['css', 'html', 'bootstrap', 'ruby'],
+    liveLinks: ['See live', 'See Source'],
   },
 ];
 
@@ -89,7 +117,7 @@ function showProject(projectId) {
       <div class="combine-two">
         <div class="proInfo">
           <h3 class="project-title">${works[projectId].title}</h3>
-          <p>${works[projectId].descrtiption}</p>
+          <p>${works[projectId].description}</p>
             </div>
         <div clss="proLan">
           <ul class="flex-div tags">
@@ -114,115 +142,44 @@ for (let i = 0; i < works.length; i += 1) {
 const seeProBtn = document.querySelectorAll('.see-pro');
 
 /* Popup window details code goes from here */
-
-const popupData = [
-  {
-    close: 'Img/Icon.svg',
-    title: 'Keeping track of hundreds  of components website',
-    titleM: 'Multi Post Stories',
-    languages: ['html', 'bootstrap', 'ruby on rails'],
-    image: 'Img/Snapshoot Portfolio.svg',
-    descrtiption: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descrtiptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    liveLinks: ['See live', 'See Source'],
-  },
-  {
-    close: 'Img/Icon.svg',
-    title: 'Keeping track of hundreds  of components website',
-    titleM: 'Multi Post Stories',
-    languages: ['html', 'bootstrap', 'ruby on rails'],
-    image: 'Img/Snapshoot Portfolio.svg',
-    descrtiption: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descrtiptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    liveLinks: ['See live', 'See Source'],
-  },
-  {
-    close: 'Img/Icon.svg',
-    title: 'Keeping track of hundreds  of components website',
-    titleM: 'Multi Post Stories',
-    languages: ['html', 'bootstrap', 'ruby on rails'],
-    image: 'Img/Snapshoot Portfolio.svg',
-    descrtiption: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descrtiptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    liveLinks: ['See live', 'See Source'],
-  },
-  {
-    close: 'Img/Icon.svg',
-    title: 'Keeping track of hundreds  of components website',
-    titleM: 'Multi Post Stories',
-    languages: ['html', 'bootstrap', 'ruby on rails'],
-    image: 'Img/Snapshoot Portfolio.svg',
-    descrtiption: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descrtiptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    liveLinks: ['See live', 'See Source'],
-  },
-  {
-    close: 'Img/Icon.svg',
-    title: 'Keeping track of hundreds  of components website',
-    titleM: 'Multi Post Stories',
-    languages: ['html', 'bootstrap', 'ruby on rails'],
-    image: 'Img/Snapshoot Portfolio.svg',
-    descrtiption: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descrtiptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    liveLinks: ['See live', 'See Source'],
-  },
-  {
-    close: 'Img/Icon.svg',
-    title: 'Keeping track of hundreds  of components website',
-    titleM: 'Multi Post Stories',
-    languages: ['html', 'bootstrap', 'ruby on rails'],
-    image: 'Img/Snapshoot Portfolio.svg',
-    descrtiption: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descrtiptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    liveLinks: ['See live', 'See Source'],
-  },
-  {
-    close: 'Img/Icon.svg',
-    title: 'Keeping track of hundreds  of components website',
-    titleM: 'Multi Post Stories',
-    languages: ['html', 'bootstrap', 'ruby on rails'],
-    image: 'Img/Snapshoot Portfolio.svg',
-    descrtiption: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descrtiptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    liveLinks: ['See live', 'See Source'],
-  },
-];
-
 const coverTop = document.querySelector('.cover-top');
-const popupCover = document.createElement('div');
+const popupCover = document.createElement('dialog');
 popupCover.classList.add('popupCover');
 
 function showPopup(projectView) {
-  popupCover.style.display = 'block';
+  const showAllWorks = [];
   coverTop.style.display = 'block';
+  popupCover.style.display = 'block';
   body.appendChild(popupCover);
   popupCover.innerHTML = `
   <section class="popup"> 
   <div class="top-popup">
     <div class="top-bottom">
       <div class="head-and-close">
-        <img src = "${popupData[projectView].close}" id="closePopupBtn">
-        <h3 class="tittleC">${popupData[projectView].title}</h3>
-        <h3 class="tittleM">${popupData[projectView].titleM}</h3>
+        <img src = "Img/Icon.svg" id="closePopupBtn">
+        <h3 class="tittleC">${works[projectView].title}</h3>
+        <h3 class="tittleM">${works[projectView].titleM}</h3>
       </div>
       <div>
-        <button type="button" class="popup-btn">${popupData[projectView].languages[0]}</button>
-        <button type="button" class="popup-btn">${popupData[projectView].languages[1]}</button>
-        <button type="button" class="popup-btn">${popupData[projectView].languages[2]}</button>
+        <button type="button" class="popup-btn">${works[projectView].languages[0]}</button>
+        <button type="button" class="popup-btn">${works[projectView].languages[1]}</button>
+        <button type="button" class="popup-btn">${works[projectView].languages[2]}</button>
       </div>
     </div>
   </div>
   <div class = "bottom-popup">
-    <img src = "${popupData[projectView].image}">
+    <img src = "${works[projectView].image}">
     <div class="bottom-popup-desc">
-      <p class="desC">${popupData[projectView].descrtiption}</p>
-      <p class="desM">${popupData[projectView].descrtiptionM}</p>
-      <a href="https://branbayou.github.io/Mobile-First-Portfolio-Project/"><button type="button" class="popup-btn-link">${popupData[projectView].liveLinks[0]}</button></a>
-      <a href="https://github.com/BranBayou"><button type="button" class="popup-btn-link">${popupData[projectView].liveLinks[1]}</button></a>
+      <p class="desC">${works[projectView].description}</p>
+      <p class="desM">${works[projectView].descriptionM}</p>
+      <a href="https://branbayou.github.io/Mobile-First-Portfolio-Project/"><button type="button" class="popup-btn-link">${works[projectView].liveLinks[0]}</button></a>
+      <a href="https://github.com/BranBayou"><button type="button" class="popup-btn-link">${works[projectView].liveLinks[1]}</button></a>
     </div>
   </div>
 </section>
   `;
+  showAllWorks.push(popupCover);
+  return showAllWorks;
 }
 for (let i = 0; i < seeProBtn.length; i += 1) {
   seeProBtn[i].addEventListener('click', () => {

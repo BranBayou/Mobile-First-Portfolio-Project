@@ -152,7 +152,6 @@
   .projects-card {
     width: 100%;
     justify-content: center;
-    gap: 20px;
   }
 
   .cardList .see-pro {
@@ -454,22 +453,27 @@
 
   .popup {
     padding: 5px;
-    width: 85%;
-    height: 90vh;
+    width: 95%;
+    height: auto;
     font-family: "inter", sans-serif;
     border: 1px solid #dfe1e6;
     position: fixed;
     top: 10px;
-    margin-left: 12px;
-    margin-bottom: 12px;
+    margin: 0 12px 12px 12px;
     background-color: white;
     z-index: 200;
+    overflow-y: auto;
+    max-height: calc(120vh - 210px);
   }
 
   .head-and-close {
     display: flex;
     flex-direction: row-reverse;
-    width: 90%;
+    width: 100%;
+  }
+
+  .bottom-popup img {
+    width: 100%;
   }
 
   .top-bottom {
@@ -500,11 +504,6 @@
 
   .tittleC {
     display: none;
-  }
-
-  #closePopupBtn {
-    width: 12px;
-    height: 12px;
   }
 
   .popup-btn-link {
@@ -866,9 +865,9 @@
   }
 
   .works {
-    width: 90%;
+    width: 85%;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 10px;
     margin: 0 auto;
@@ -877,7 +876,7 @@
 
   .resent-work-intro {
     margin-bottom: 100px;
-    grid-column: span 12;
+    grid-column: span 3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -931,23 +930,15 @@
     height: 48px;
   }
 
-  .story-detail p {
-    font-family: sans-serif, 'Inter';
-    font-weight: 400;
-    font-size: 20px;
-    width: 448px;
-    height: 140px;
-    color: #091e42;
-  }
-
   /* refactor css */
 
   .projects-card {
-    max-width: 100%;
+    padding-left: 30px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    padding-left: 130px;
+    align-content: center;
     gap: 20px;
   }
 
@@ -1386,21 +1377,9 @@
 
   /* Popup detail style */
 
-  .cover-top {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100vw;
-    height: 100vh;
-    opacity: 0.9;
-    z-index: 100;
-    display: none;
-  }
-
   .popup {
     padding: 15px;
-    width: 90%;
+    width: 80%;
     margin-left: 100px;
     font-family: "inter", sans-serif;
     border: 1px solid #dfe1e6;
@@ -1408,6 +1387,8 @@
     top: 60px;
     background-color: white;
     z-index: 200;
+    overflow-y: auto;
+    max-height: calc(120vh - 210px);
   }
 
   .bottom-popup img {
