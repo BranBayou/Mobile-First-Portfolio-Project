@@ -44,7 +44,7 @@ form.addEventListener('submit', (event) => {
     email.style.border = '1px solid red';
     error.style.color = 'red';
     return false;
-  } 
+  }
   return true;
 });
 
