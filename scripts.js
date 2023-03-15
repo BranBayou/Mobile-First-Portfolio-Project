@@ -44,11 +44,8 @@ form.addEventListener('submit', (event) => {
     email.style.border = '1px solid red';
     error.style.color = 'red';
     return false;
-  } else {
-    email.style.border = '1px solid #cfd8dc';
-    error.textContent = '';
-    return true;
-  }
+  } 
+  return true;
 });
 
 /* Projects refactor code */
