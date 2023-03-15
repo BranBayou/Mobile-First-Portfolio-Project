@@ -62,6 +62,14 @@ form.addEventListener('submit', (event) => {
   return true;
 });
 
+window.addEventListener('load', () => {
+  if (savedData) {
+    userName.value = savedData.name;
+    email.value = savedData.email;
+    msg.value = savedData.message;
+  }
+});
+
 /* Projects refactor code */
 
 const works = [
