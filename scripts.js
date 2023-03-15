@@ -33,6 +33,8 @@ option3.addEventListener('click', () => {
   header.style.display = 'block';
 });
 
+const msg = document.querySelector('.input-textarea');
+const userName = document.querySelector('.input-name');
 const form = document.getElementById('form');
 const email = document.getElementById('email');
 const error = document.querySelector('.error-msg');
@@ -50,6 +52,15 @@ form.addEventListener('submit', (event) => {
     return true;
   }
 });
+
+function storeData() {
+  const info = {
+    name: userName.value,
+    email: email.value,
+    message: msg.value,
+  };
+  window.localStorage.setItem('info', JSON.stringify(info));
+}
 
 /* Projects refactor code */
 
