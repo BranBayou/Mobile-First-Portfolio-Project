@@ -123,13 +123,14 @@
     <div class="form-intro">
       <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     </div>
-    <form action="https://formspree.io/f/xyyawdea" method="POST">
+    <form id="form" action="https://formspree.io/f/xyyawdea" method="POST">
       <label for="fullname" hidden>Full Name</label>
       <input id="message" class="input-name" type="text" placeholder="Full name" maxlength="30" required>
       <img class="input-line" src="./Img/Container.svg" alt="separator line">
-      <label for="email" hidden>Email</label>
-      <input id="email" class="input-email" type="email" placeholder="Email address" required>
+      <label for="mail" hidden>Email</label>
+      <input id="email" class="input-email" type="email" name="email" placeholder="Email address" required>
       <img class="input-line" src="./Img/Container.svg" alt="separator line">
+      <small class="error-msg"></small>
       <label for="message" hidden>Message</label>
       <textarea id="message" class="input-textarea" name="textarea" id="" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
       <button type="submit" class="get-in-touch">Get in touch</button>

@@ -644,17 +644,19 @@
 
   .input-name,
   .input-email {
+    padding: 20px;
     width: 295px;
     height: 18px;
     font-weight: 400;
     font-size: 15px;
     font-family: 'Inter', arial, sans-serif;
     line-height: 24px;
-    color: #979493;
+    color: #000;
     border: none;
   }
 
   .input-textarea {
+    padding: 20px;
     width: 327px;
     height: 114px;
     background-color: #fbf8f7;
@@ -1313,7 +1315,8 @@
 
   .input-name,
   .input-email {
-    width: 295px;
+    padding: 20px;
+    width: 486px;
     height: 18px;
     font-weight: 400;
     font-size: 15px;
@@ -1324,6 +1327,7 @@
   }
 
   .input-textarea {
+    padding: 20px;
     width: 486px;
     height: 114px;
     background-color: #fbf8f7;
@@ -1335,6 +1339,7 @@
   }
 
   .input-line {
+    margin: 0;
     width: 486px;
   }
 

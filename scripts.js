@@ -33,6 +33,21 @@ option3.addEventListener('click', () => {
   header.style.display = 'block';
 });
 
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const error = document.querySelector('.error-msg');
+
+form.addEventListener('submit', (event) => {
+  if (!email.value.match(/^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/)) {
+    event.preventDefault();
+    error.innerHTML = 'Please, email should be in lowercase';
+    email.style.border = '1px solid red';
+    error.style.color = 'red';
+    return false;
+  }
+  return true;
+});
+
 /* Projects refactor code */
 
 const works = [
