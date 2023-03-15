@@ -68,6 +68,7 @@ window.addEventListener('load', () => {
     email.value = savedData.email;
     msg.value = savedData.message;
   }
+  return true;
 });
 
 /* Projects refactor code */
