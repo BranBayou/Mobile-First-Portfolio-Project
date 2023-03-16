@@ -33,9 +33,23 @@ option3.addEventListener('click', () => {
   header.style.display = 'block';
 });
 
+const msg = document.querySelector('.input-textarea');
+const userName = document.querySelector('.input-name');
 const form = document.getElementById('form');
 const email = document.getElementById('email');
 const error = document.querySelector('.error-msg');
+
+function storeData() {
+  const info = {
+    name: userName.value,
+    email: email.value,
+    message: msg.value,
+  };
+  window.localStorage.setItem('info', JSON.stringify(info));
+}
+
+form.addEventListener('change', storeData);
+const savedData = JSON.parse(localStorage.getItem('info'));
 
 form.addEventListener('submit', (event) => {
   if (!email.value.match(/^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/)) {
@@ -44,6 +58,15 @@ form.addEventListener('submit', (event) => {
     email.style.border = '1px solid red';
     error.style.color = 'red';
     return false;
+  }
+  return true;
+});
+
+window.addEventListener('load', () => {
+  if (savedData) {
+    userName.value = savedData.name;
+    email.value = savedData.email;
+    msg.value = savedData.message;
   }
   return true;
 });
