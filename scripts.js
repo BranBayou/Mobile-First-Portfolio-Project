@@ -48,7 +48,7 @@ function storeData() {
   window.localStorage.setItem('info', JSON.stringify(info));
 }
 
-form.addEventListener('submit', storeData);
+form.addEventListener('change', storeData);
 const savedData = JSON.parse(localStorage.getItem('info'));
 
 form.addEventListener('submit', (event) => {
