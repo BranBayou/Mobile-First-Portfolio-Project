@@ -1060,6 +1060,10 @@
     margin-top: 15px;
   }
 
+  .cardList Img {
+    max-width: 360px;
+  }
+
   #main-project0 .see-pro {
     color: #fff;
     font-weight: 700;
